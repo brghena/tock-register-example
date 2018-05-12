@@ -1,0 +1,7 @@
+[package]
+name = "tock-register-example"
+version = "0.1.0"
+authors = ["niklasad1 <niklasadolfsson1@gmail.com>"]
+
+[dependencies]
+tock-regs = { git = "https://github.com/tock/tock.git", branch = "seperate-registers" }
