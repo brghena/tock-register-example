@@ -5,6 +5,8 @@ extern crate tock_regs;
 
 use tock_regs::regs::{ReadOnly, ReadWrite, WriteOnly};
 
+mod cpu_regs;
+
 #[repr(C)]
 struct Registers {
     // Control register: read-write
